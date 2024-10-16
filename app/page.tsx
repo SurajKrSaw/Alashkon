@@ -27,62 +27,85 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen">
       <header className="flex bg-green-200 h-20 w-full shrink-0 items-center px-4 md:px-6">
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="">
-              <div className="h-6 w-6 bg-gray-300"></div>
-              <span className="sr-only">Toggle navigation menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="left">
-            <Link href="#" className="mr-6 hidden lg:flex" >
-              {/* Replace MountainIcon with a div */}
-              <div className="h-6 w-6 bg-gray-300"></div>
-              <span className="sr-only">Acme Inc</span>
-            </Link>
-            <div className="grid gap-2 py-6">
-              <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
-                Home
+        <div className="/*SIDEBAR & LOGO*/ flex items-center justify-between w-full md:w-auto">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon" className="/*md:hidden*/">
+                <div className="h-6 w-6 bg-gray-300"></div>
+                <span className="sr-only">Toggle navigation menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left">
+              <Link href="#" className="mr-6 hidden lg:flex" >
+                <div className="h-6 w-6 bg-gray-300"></div>
+                <span className="sr-only">Acme Inc</span>
               </Link>
-              <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
-                About
-              </Link>
-              <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
-                Services
-              </Link>
-              <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
-                Contact
-              </Link>
-            </div>
-          </SheetContent>
-        </Sheet>
+              <div className="grid gap-2 py-6">
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  About Us
+                </Link>
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  Catalogues
+                </Link>
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  Say Hii!
+                </Link>
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  Contact Us
+                </Link>
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  Locate Us
+                </Link>
+                <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" >
+                  Support
+                </Link>
+              </div>
+            </SheetContent>
+          </Sheet>
+          <div className="flex">
+            <Image src="/alashkonLogo.png" alt="Alashkon Icon" height={80} width={80} className="object-contain" />
+            <Image src="/alashkon_title.png" alt="Alashkon Title" height={70} width={200} />
+          </div>
+        </div>
         {/* <Link href="#" className="mr-6 hidden lg:flex bg-red-400 mx-3" >
           <div className="h-6 w-6 bg-gray-300">
             <span className="sr-only">A</span>
           </div>
         </Link> */}
-        <span className="logo font-bold text-2xl mx-2">Alashkon</span>
-        <nav className="ml-auto hidden lg:flex gap-6">
-          <Link
-            href="#"
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
-            Home
-          </Link>
-          <Link
-            href="#"
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
-            About
-          </Link>
-          <Link
-            href="#"
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
-            Services
-          </Link>
-          <Link
-            href="#"
-            className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
-            Contact
-          </Link>
+
+        <nav className="flex justify-center items-center ml-auto ">
+          <div className="/*NAVITEMS*/ md:flex hidden md:block gap-6">
+            <Link
+              href="#"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              About Us
+            </Link>
+            <div
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              Catalogues
+            </div>
+            <Link
+              href="#"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              Say Hii!
+            </Link>
+            <Link
+              href="#"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              Contact Us
+            </Link>
+            <Link
+              href="#"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              Locate Us
+            </Link>
+
+            <Link
+              href="#"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" >
+              Support
+            </Link>
+          </div>
         </nav>
       </header>
 
