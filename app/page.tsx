@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FiAlignLeft } from "react-icons/fi";
 
 import {
   NavigationMenu,
@@ -31,13 +32,13 @@ export default function Home() {
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="/*md:hidden*/">
-                <div className="h-6 w-6 bg-gray-300"></div>
+                <div className=" text-3xl"><FiAlignLeft /></div>
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
               <Link href="#" className="mr-6 hidden lg:flex" >
-                <div className="h-6 w-6 bg-gray-300"></div>
+                <div className=""><Image src="/alashkonLogo.png" alt="Alashkon Icon" height={80} width={80} className="object-contain" /></div>
                 <span className="sr-only">Acme Inc</span>
               </Link>
               <div className="grid gap-2 py-6">
@@ -67,11 +68,6 @@ export default function Home() {
             <Image src="/alashkon_title.png" alt="Alashkon Title" height={70} width={200} />
           </div>
         </div>
-        {/* <Link href="#" className="mr-6 hidden lg:flex bg-red-400 mx-3" >
-          <div className="h-6 w-6 bg-gray-300">
-            <span className="sr-only">A</span>
-          </div>
-        </Link> */}
 
         <nav className="flex justify-center items-center ml-auto ">
           <div className="/*NAVITEMS*/ md:flex hidden md:block gap-6">
