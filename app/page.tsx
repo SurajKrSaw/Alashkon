@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FiAlignLeft } from "react-icons/fi";
 
 import {
   NavigationMenu,
@@ -22,6 +23,16 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+} from "@/components/ui/sidebar"
 
 export default function Home() {
   return (
@@ -31,13 +42,15 @@ export default function Home() {
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="/*md:hidden*/">
-                <div className="h-6 w-6 bg-gray-300"></div>
+                <div className="text-2xl font-bold"><FiAlignLeft /></div>
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
               <Link href="#" className="mr-6 hidden lg:flex" >
-                <div className="h-6 w-6 bg-gray-300"></div>
+                <div className="">
+                  <Image src="/alashkonLogo.png" alt="Alashkon Icon" height={80} width={80} className="object-contain" />
+                </div>
                 <span className="sr-only">Acme Inc</span>
               </Link>
               <div className="grid gap-2 py-6">
@@ -62,6 +75,40 @@ export default function Home() {
               </div>
             </SheetContent>
           </Sheet>
+          <Sidebar>
+            <SidebarContent>
+              <SidebarGroup>
+                <SidebarGroupLabel>Application</SidebarGroupLabel>
+                <SidebarGroupContent>
+                  <SidebarMenu>
+
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='#'>
+                          <span>Item 1</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='#'>
+                          <span>Item 2</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                      <SidebarMenuButton asChild>
+                        <a href='#'>
+                          <span>Item 3</span>
+                        </a>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+
+                  </SidebarMenu>
+                </SidebarGroupContent>
+              </SidebarGroup>
+            </SidebarContent>
+          </Sidebar>
           <div className="flex">
             <Image src="/alashkonLogo.png" alt="Alashkon Icon" height={80} width={80} className="object-contain" />
             <Image src="/alashkon_title.png" alt="Alashkon Title" height={70} width={200} />
