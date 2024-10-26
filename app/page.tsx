@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiAlignLeft } from "react-icons/fi";
+//import Autoplay from "embla-carousel-autoplay"
 
 import {
   NavigationMenu,
@@ -23,6 +24,21 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 export default function Home() {
   return (
@@ -105,7 +121,28 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="flex justify-center items-center h-full">
+      <main className="flex flex-col justify-center items-center ">
+        <Carousel className="w-full px-1">
+          <CarouselContent>
+            <CarouselItem >
+              <div className="p-1 w-100">
+                <Image src="/carausal_demo_2.jpg" alt="Alashkon Icon" height={5000} width={5000} className="object-contain" />
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              <div className="p-1 w-100">
+                <Image src="/carausal_demo_3.jpeg" alt="Alashkon Icon" height={5000} width={5000} className="object-contain" />
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              <div className="p-1 w-100">
+                <Image src="/carausal_demo_1.jpg" alt="Alashkon Icon" height={5000} width={5000} className="object-contain" />
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
         <p className="bg-reds-500 text-3xl font-bold">Main Content</p>
       </main>
 
