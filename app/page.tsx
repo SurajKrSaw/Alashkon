@@ -1,26 +1,14 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { FiAlignLeft } from "react-icons/fi";
-//import Autoplay from "embla-carousel-autoplay"
+import Autoplay from "embla-carousel-autoplay"
 
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
 
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 
@@ -31,14 +19,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+
 
 export default function Home() {
   return (
@@ -122,7 +103,11 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col justify-center items-center ">
-        <Carousel className="w-full px-1">
+        <Carousel className="w-full px-1" plugins={[
+          Autoplay({
+            delay: 2000,
+          }),
+        ]}>
           <CarouselContent>
             <CarouselItem >
               <div className="p-1 w-100">
