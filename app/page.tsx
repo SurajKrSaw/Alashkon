@@ -4,16 +4,6 @@ import Link from "next/link";
 import { FiAlignLeft } from "react-icons/fi";
 import Autoplay from "embla-carousel-autoplay"
 
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
 
 import { Button } from "@/components/ui/button";
 import {
@@ -142,6 +132,113 @@ export default function Home() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+        {/* CATEGORIES */}
+        <section className="w-full text-gray-400 bg-gray-900 body-font">
+          <h1 className="text-4xl font-bold text-center justify-center tracking-widest py-5 underline text-white">CATALOGUES</h1>
+          <div className="container flex flex-wrap  px-5 py-8 mx-auto ">
+
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className=" bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-50 h-70 rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1111%20ULTRA.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">ONE PIECE</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-171%20SALVO.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">HALF PADESTAL BASIN</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-513%20ZORA.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">WALL HUNG</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-154.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">ORISSA PAN & URINAL</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-102.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">TABLE TOP</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG%20BASIN/CODE-5005.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">WALL HUNG BASIN</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/WATER%20CLOSET/CODE-201.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">WATER CLOSET</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className="hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE%20BASIN/CODE-3001%20NESA.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">ONE PIECE BASIN</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="p-4 md:w-1/3 ">
+              <Link href='#' className="bg-red-900">
+                <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
+                  <div className="p-6">
+                    <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">CATEGORY</h2>
+                    <Image className="w-full rounded-md object-cover object-center" src="https://senticabathware.com/includes/assets/images/collection/BASIN%20WITH%20PADETAL/CODE-128%20LINIA.jpg" width={1000} height={1000} alt="blog" />
+                    <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">BASIN WITH PADETAL</h1>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+          </div>
+        </section>
         <p className="bg-reds-500 text-3xl font-bold">Main Content</p>
       </main>
 
@@ -192,6 +289,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-    </div>
+    </div >
   );
 }
