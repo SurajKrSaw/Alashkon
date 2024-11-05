@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/carousel";
 
 
-export default function Home() {
+const Home = ()=> {
   return (
     <div className="flex flex-col h-screen">
       <header className="flex bg-green-200 h-20 w-full shrink-0 items-center px-4 md:px-6">
@@ -292,3 +292,4 @@ export default function Home() {
     </div >
   );
 }
+export default Home;
