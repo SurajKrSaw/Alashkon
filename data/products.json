@@ -50,5 +50,180 @@
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1117%20SWIZ.jpg"
+  },{
+    "id": 8,
+    "name": "NURA HALF SET",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "half pedestal basin",
+    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-161%20NURA%20HALF%20SET.jpg"
+  },{
+    "id": 9,
+    "name": "ASTIS HALF SET",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "half pedestal basin",
+    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-162%20ASTIS%20HALF%20SET.jpg"
+  },{
+    "id": 10,
+    "name": "SPACY",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "half pedestal basin",
+    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-170%20SPACY.jpg"
+  },{
+    "id": 11,
+    "name": "LAKME HALF SET",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "half pedestal basin",
+    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-163%20LAKME%20HALF%20SET.jpg"
+  },{
+    "id": 12,
+    "name": "SALVO",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "half pedestal basin",
+    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-171%20SALVO.jpg"
+  },{
+    "id": 13,
+    "name": "MILANO",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "wall hung",
+    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-507%20MILANO.jpg"
+  },{
+    "id": 14,
+    "name": "SOLID",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "wall hung",
+    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-510%20SOLID.jpg"
+  },{
+    "id": 15,
+    "name": "MAST",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "wall hung",
+    "image": ""
+  },{
+    "id": 16,
+    "name": "SANKU",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "wall hung",
+    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-512%20SANKU.jpg"
+  },{
+    "id": 17,
+    "name": "ZORA",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "wall hung",
+    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-513%20ZORA.jpg"
+  },{
+    "id": 18,
+    "name": "ORISSA 20\"",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-01.jpg"
+  },{
+    "id": 19,
+    "name": "ORISSA 23\"",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-02.jpg"
+  },{
+    "id": 20,
+    "name": "CITY PAN 20\"",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-03.jpg"
+  },{
+    "id": 21,
+    "name": "TOVA",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-151.jpg"
+  },{
+    "id": 22,
+    "name": "HALF STALL",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-154.jpg"
+  },{
+    "id": 23,
+    "name": "NANO",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "orissa pan & urinal",
+    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-155.jpg"
+  },{
+    "id": 24,
+    "name": "CRENZA",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-92.jpg"
+  },{
+    "id": 25,
+    "name": "AQUA",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-95.jpg"
+  },{
+    "id": 26,
+    "name": "CAPSUL",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-102.jpg"
+  },{
+    "id": 27,
+    "name": "CODE-104",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": ""
+  },{
+    "id": 28,
+    "name": "SPARKLE",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-105.jpg"
+  },{
+    "id": 29,
+    "name": "SALVIA",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-106.jpg"
+  },{
+    "id": 30,
+    "name": "VENTO",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-161.jpg"
+  },{
+    "id": 31,
+    "name": "INOX",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-167.jpg"
+  },{
+    "id": 32,
+    "name": "LUDO",
+    "code": "####",
+    "price": "XX.XX",
+    "category": "table top",
+    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-170.jpg"
   }
 ]
