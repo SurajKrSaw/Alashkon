@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} **/
 const nextConfig = {
     images: {
-        domains: ['senticabathware.com'], // list all domains
+        domains: ['senticabathware.com'],
+        ignoreDuringBuilds: true,
     },
 };
 
