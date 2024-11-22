@@ -22,7 +22,7 @@ const Home = () => {
         <div className="/*SIDEBAR & LOGO*/ flex items-center justify-between w-full md:w-auto">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="outline" size="icon" className="/*md:hidden*/">
+              <Button variant="outline" size="icon" className="md:hidden">
                 <div className=" text-3xl">
                   <FiAlignLeft />
                 </div>
