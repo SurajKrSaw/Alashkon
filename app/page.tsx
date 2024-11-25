@@ -14,7 +14,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen mt-20">
+    <div className="flex flex-col h-screen">
       <main className="flex flex-col justify-center items-center">
         <Carousel
           className="w-full px-1"
@@ -90,7 +90,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="p-4 md:w-1/3 ">
-              <Link href="./half padestal basin" className="bg-red-900">
+              <Link href="./half pedestal basin" className="bg-red-900">
                 <div className=" hover:border-2 hover:border-gray-400 hover:tracking-widest /*border-2 border-gray-800*/ rounded-b-3xl overflow-hidden">
                   <div className="p-6">
                     <h2 className="tracking-widest text-xs title-font text-gray-600 mb-1">
@@ -104,7 +104,7 @@ const Home = () => {
                       alt="blog"
                     />
                     <h1 className="md:pt-2 title-font text-lg font-black text-white overline text-right">
-                      HALF PADESTAL BASIN
+                      HALF PEDESTAL BASIN
                     </h1>
                   </div>
                 </div>
