@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "@/components/header";
 import Autoplay from "embla-carousel-autoplay";
 
 import {
@@ -14,7 +13,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen mt-20">
       <main className="flex flex-col justify-center items-center">
         <Carousel
           className="w-full px-1"
