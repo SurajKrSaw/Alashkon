@@ -1,11 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FiAlignLeft } from "react-icons/fi";
+import Header from "@/components/header";
 import Autoplay from "embla-carousel-autoplay";
-
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 import {
   Carousel,
@@ -17,129 +14,8 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen">
-      <header className="flex bg-green-200 h-20 w-full shrink-0 items-center px-4 md:px-6">
-        <div className="/*SIDEBAR & LOGO*/ flex items-center justify-between w-full md:w-auto">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="outline" size="icon" className="md:hidden">
-                <div className=" text-3xl">
-                  <FiAlignLeft />
-                </div>
-                <span className="sr-only">Toggle navigation menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left">
-              <Link href="#" className="mr-6 hidden lg:flex">
-                <div className="">
-                  <Image
-                    src="/alashkonLogo.png"
-                    alt="Alashkon Icon"
-                    height={80}
-                    width={80}
-                    className="object-contain"
-                  />
-                </div>
-                <span className="sr-only">Acme Inc</span>
-              </Link>
-              <div className="grid gap-2 py-6">
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  About Us
-                </Link>
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  Catalogues
-                </Link>
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  Say Hii!
-                </Link>
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  Contact Us
-                </Link>
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  Locate Us
-                </Link>
-                <Link
-                  href="#"
-                  className="flex w-full items-center py-2 text-lg font-semibold"
-                >
-                  Support
-                </Link>
-              </div>
-            </SheetContent>
-          </Sheet>
-          <div className="flex">
-            <Image
-              src="/alashkonLogo.png"
-              alt="Alashkon Icon"
-              height={80}
-              width={80}
-              className="object-contain"
-            />
-            <Image
-              src="/alashkon_title.png"
-              alt="Alashkon Title"
-              height={70}
-              width={200}
-            />
-          </div>
-        </div>
-
-        <nav className="flex justify-center items-center ml-auto ">
-          <div className="/*NAVITEMS*/ md:flex hidden md:block gap-6">
-            <Link
-              href="#"
-              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-            >
-              About Us
-            </Link>
-            <div className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50">
-              Catalogues
-            </div>
-            <Link
-              href="#"
-              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-            >
-              Say Hii!
-            </Link>
-            <Link
-              href="#"
-              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-            >
-              Contact Us
-            </Link>
-            <Link
-              href="#"
-              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-            >
-              Locate Us
-            </Link>
-
-            <Link
-              href="#"
-              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-            >
-              Support
-            </Link>
-          </div>
-        </nav>
-      </header>
-
-      <main className="flex flex-col justify-center items-center ">
+    <div className="flex flex-col h-screen mt-20">
+      <main className="flex flex-col justify-center items-center">
         <Carousel
           className="w-full px-1"
           plugins={[

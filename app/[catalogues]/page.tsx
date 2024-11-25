@@ -6,7 +6,7 @@ import products from "../../data/products.json";
 const Catalogues = ({ params }: { params: { catalogues: string } }) => {
   console.log(params.catalogues);
   return (
-    <section className="w-full h-full text-gray-600 bg-green-200 body-font">
+    <div className="flex flex-col h-full text-gray-600 bg-green-200 body-font mt-20">
       <h1 className="text-3xl pt-5 font-black text-blue-900 underline decoration-dotted text-center">
         {decodeURIComponent(params.catalogues).toUpperCase()}
       </h1>
@@ -63,7 +63,7 @@ const Catalogues = ({ params }: { params: { catalogues: string } }) => {
             )}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
