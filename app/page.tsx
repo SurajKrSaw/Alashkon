@@ -16,7 +16,7 @@ const Home = () => {
     <div className="flex flex-col">
       <main className="flex flex-col justify-center items-center">
         <Carousel
-          className="w-full px-4 py-2 relative"
+          className="w-full px-4 pt-2 relative rounded-lg overflow-hidden"
           plugins={[
             Autoplay({
               delay: 2500, // Adjusted autoplay delay for better pacing
@@ -25,48 +25,48 @@ const Home = () => {
         >
           <CarouselContent>
             <CarouselItem>
-              <div className="relative w-full h-96 md:h-[600px]">
+              <div className="relative w-full h-96 md:h-[600px] rounded-lg overflow-hidden">
                 <Image
                   src="/carousel_demo_2.jpg"
                   alt="Alashkon Icon"
-                  layout="fill" // This allows the image to fill the container
-                  objectFit="cover" // Ensures proper coverage
-                  className="rounded-lg shadow-lg"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-25 rounded-lg flex justify-center items-center">
-                  <h2 className="text-white text-3xl font-bold">
+                  <h2 className="text-white text-lg sm:text-2xl md:text-3xl font-bold text-center px-4">
                     Premium Bathroom Fixtures
                   </h2>
                 </div>
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative w-full h-96 md:h-[600px]">
+              <div className="relative w-full h-96 md:h-[600px] rounded-lg overflow-hidden">
                 <Image
                   src="/carousel_demo_3.jpeg"
                   alt="Alashkon Icon"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-25 rounded-lg flex justify-center items-center">
-                  <h2 className="text-white text-3xl font-bold">
+                  <h2 className="text-white text-lg sm:text-2xl md:text-3xl font-bold text-center px-4">
                     Sleek, Modern Designs
                   </h2>
                 </div>
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative w-full h-96 md:h-[600px]">
+              <div className="relative w-full h-96 md:h-[600px] rounded-lg overflow-hidden">
                 <Image
                   src="/carousel_demo_1.jpg"
                   alt="Alashkon Icon"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-25 rounded-lg flex justify-center items-center">
-                  <h2 className="text-white text-3xl font-bold">
+                  <h2 className="text-white text-lg sm:text-2xl md:text-3xl font-bold text-center px-4">
                     Elegant Sanitary Solutions
                   </h2>
                 </div>
