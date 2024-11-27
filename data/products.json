@@ -3,6 +3,7 @@
     "id": 1,
     "name": "ULTRA",
     "code": "####",
+    "size": "665x350x750",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1111%20ULTRA.jpg"
@@ -11,6 +12,7 @@
     "id": 2,
     "name": "EGRET",
     "code": "####",
+    "size": "665x360x730",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1112%20EGRET.jpg"
@@ -19,6 +21,7 @@
     "id": 3,
     "name": "VOLVO",
     "code": "####",
+    "size": "xx",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1113%20VOLVO.jpg"
@@ -26,6 +29,7 @@
     "id": 4,
     "name": "COLONA",
     "code": "####",
+    "size": "665x365x725",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1114%20COLONA.jpg"
@@ -33,6 +37,7 @@
     "id": 5,
     "name": "VICTORIA",
     "code": "####",
+    "size": "725x390x770",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1115%20VICTORIA.jpg"
@@ -40,6 +45,7 @@
     "id": 6,
     "name": "CRYSTAL",
     "code": "####",
+    "size": "650x355x690",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1116%20CRYSTAL.jpg"
@@ -47,6 +53,7 @@
     "id": 7,
     "name": "SWIZ",
     "code": "####",
+    "size": "655x360x735",
     "price": "XX.XX",
     "category": "one piece",
     "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1117%20SWIZ.jpg"
@@ -54,6 +61,7 @@
     "id": 8,
     "name": "NURA HALF SET",
     "code": "####",
+    "size": "xx",
     "price": "XX.XX",
     "category": "half pedestal basin",
     "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-161%20NURA%20HALF%20SET.jpg"
@@ -62,6 +70,7 @@
     "name": "ASTIS HALF SET",
     "code": "####",
     "price": "XX.XX",
+    "size": "665x350x750",
     "category": "half pedestal basin",
     "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-162%20ASTIS%20HALF%20SET.jpg"
   },{

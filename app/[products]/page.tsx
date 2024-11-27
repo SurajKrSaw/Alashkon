@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import products from "../../data/products.json";
 
-const Catalogues = ({ params }: { params: { catalogues: string } }) => {
-  console.log(params.catalogues);
+const Products = ({ params }: { params: { products: string } }) => {
+  console.log(params.products);
   return (
     <div className="flex flex-col h-full text-gray-600 bg-green-200 body-font mt-20">
       <h1 className="text-3xl pt-5 font-black text-blue-900 underline decoration-dotted text-center">
-        {decodeURIComponent(params.catalogues).toUpperCase()}
+        {decodeURIComponent(params.products).toUpperCase()}
       </h1>
       <div className="container py-16 px-12 mx-auto">
         <div className="flex flex-wrap -m-4">
@@ -21,7 +21,7 @@ const Catalogues = ({ params }: { params: { catalogues: string } }) => {
                 price: string;
                 category: string;
                 image: string;
-              }) => product.category === decodeURIComponent(params.catalogues)
+              }) => product.category === decodeURIComponent(params.products)
             )
             .map(
               (product: {
@@ -44,7 +44,7 @@ const Catalogues = ({ params }: { params: { catalogues: string } }) => {
                       />
                       <div className="mt-4">
                         <h3 className="text-xs font-thin tracking-widest text-gray-400">
-                          {decodeURIComponent(params.catalogues).toUpperCase()}
+                          {decodeURIComponent(params.products).toUpperCase()}
                         </h3>
                         <h2 className="text-2xl font-bold tracking-widest text-blue-900 text-right overline">
                           {product.name}
@@ -67,4 +67,4 @@ const Catalogues = ({ params }: { params: { catalogues: string } }) => {
   );
 };
 
-export default Catalogues;
+export default Products;
