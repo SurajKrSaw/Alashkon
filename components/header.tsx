@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex bg-teal-500 h-20 w-full fixed top-0 z-10 px-4 md:px-6 shadow-lg">
+    <header className="flex bg-teal-500 h-20 w-full sticky top-0 z-10 px-4 md:px-6 shadow-lg">
       {/* Sidebar & Logo */}
       <div className="flex items-center justify-between w-full md:w-auto">
         {/* Sidebar for Mobile */}
