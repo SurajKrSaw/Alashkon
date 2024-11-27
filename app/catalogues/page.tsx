@@ -49,7 +49,7 @@ const Catalogues = () => {
 
   return (
     <section className="w-full bg-white text-gray-600 body-font mt-20">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center tracking-wide py-6 text-teal-600 decoration-teal-400">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center tracking-wide py-7 text-teal-600 decoration-teal-400">
         CATALOGUES
       </h1>
       <div className="container flex flex-wrap px-4 sm:px-6 py-4 mx-auto">

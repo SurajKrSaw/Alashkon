@@ -6,35 +6,22 @@ import products from "../../data/products.json";
 const Products = ({ params }: { params: { products: string } }) => {
   console.log(params.products);
   return (
-    <div className="flex flex-col h-full text-gray-600 bg-green-200 body-font mt-20">
-      <h1 className="text-3xl pt-5 font-black text-blue-900 underline decoration-dotted text-center">
+    <div className="flex flex-col min-h-screen text-gray-600 bg-white body-font mt-20">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center tracking-wide py-7 text-teal-600 decoration-teal-400">
         {decodeURIComponent(params.products).toUpperCase()}
       </h1>
-      <div className="container py-16 px-12 mx-auto">
+      <div className="container py-8 px-12 mx-auto">
         <div className="flex flex-wrap -m-4">
           {products
             .filter(
-              (product: {
-                id: number;
-                name: string;
-                code: string;
-                price: string;
-                category: string;
-                image: string;
-              }) => product.category === decodeURIComponent(params.products)
+              (product) =>
+                product.category === decodeURIComponent(params.products)
             )
-            .map(
-              (product: {
-                id: number;
-                name: string;
-                code: string;
-                price: string;
-                category: string;
-                image: string;
-              }) => (
-                <div key={product.id} className="lg:w-1/3 md:w-1/2 p-5">
-                  <Link href="#">
-                    <div className="p-2 bg-gray-100 hover:bg-white rounded-lg shadow-sm hover:shadow-2xl transition-shadow duration-200">
+            .map((product) => (
+              <div key={product.id} className="lg:w-1/3 md:w-1/2 p-5">
+                <Link href="#" className="block">
+                  <div className="p-4 bg-sky-100 hover:bg-teal-200 rounded-lg hover:shadow-2xl transition-all duration-300">
+                    <div className="relative w-full h-64 mb-4">
                       <Image
                         height={3000}
                         width={3000}
@@ -42,25 +29,31 @@ const Products = ({ params }: { params: { products: string } }) => {
                         className="object-cover object-center w-full h-full rounded-md"
                         src={product.image}
                       />
-                      <div className="mt-4">
-                        <h3 className="text-xs font-thin tracking-widest text-gray-400">
-                          {decodeURIComponent(params.products).toUpperCase()}
-                        </h3>
-                        <h2 className="text-2xl font-bold tracking-widest text-blue-900 text-right overline">
-                          {product.name}
-                        </h2>
-                        <div className="flex justify-between text-gray-800">
-                          <p className="mt-1">Code {product.code}</p>
-                          <p className="mt-1 text-green-600">
-                            ₹ {product.price}
+                    </div>
+                    <div className="mt-4">
+                      <h3 className="text-xs font-semibold tracking-widest text-teal-600">
+                        {decodeURIComponent(params.products).toUpperCase()}
+                      </h3>
+                      <h2 className="text-xl font-bold text-blue-900 tracking-wide text-right">
+                        {product.name}
+                      </h2>
+                      <div className="flex justify-between text-gray-800 mt-2">
+                        <div className="flex flex-col">
+                          <p className="text-sm">Code: {product.code}</p>
+                          {/* Size below Code */}
+                          <p className="text-sm text-gray-600">
+                            Size: {product.size || "N/A"}
                           </p>
                         </div>
+                        <p className="text-lg font-semibold text-teal-600">
+                          ₹ {product.price}
+                        </p>
                       </div>
                     </div>
-                  </Link>
-                </div>
-              )
-            )}
+                  </div>
+                </Link>
+              </div>
+            ))}
         </div>
       </div>
     </div>
