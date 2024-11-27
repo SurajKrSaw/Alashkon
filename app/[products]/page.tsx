@@ -6,7 +6,7 @@ import products from "../../data/products.json";
 const Products = ({ params }: { params: { products: string } }) => {
   console.log(params.products);
   return (
-    <div className="flex flex-col min-h-screen text-gray-600 bg-white body-font mt-20">
+    <div className="flex flex-col min-h-screen text-gray-600 bg-gray-100 body-font">
       <h1 className="text-3xl sm:text-4xl font-bold text-center tracking-wide py-7 text-teal-600 decoration-teal-400">
         {decodeURIComponent(params.products).toUpperCase()}
       </h1>
