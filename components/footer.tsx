@@ -117,7 +117,7 @@ const Footer = () => {
                 href="mailto:contact@alashkon.com"
                 className="text-teal-600 hover:text-teal-500 transition"
               >
-                contact@alashkon.com
+                alashkoninfras@gmail.com
               </a>
             </p>
             <p className="text-gray-600">
@@ -125,7 +125,7 @@ const Footer = () => {
                 href="https://maps.google.com/?q=1234,+Dummy+Street,+Some+City"
                 className="text-teal-600 hover:text-teal-500 transition"
               >
-                1234, Dummy Street, Some City
+                AT. P.O. Pochari, Dhanbad, Pin Code: 828306, India
               </a>
             </p>
           </div>
@@ -136,14 +136,18 @@ const Footer = () => {
           {/* Social Icons (Left of Copyright) */}
           <div className="flex space-x-4 mb-4 sm:mb-0">
             <Link
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61569552780450&mibextid=qi2Omg&rdid=I6PFl8T5T0pSPHVF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19oW2ogEaP%2F%3Fmibextid%3Dqi2Omg"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-teal-600 hover:text-teal-700 transition font-semibold hover:underline"
               aria-label="Facebook"
             >
               FACEBOOK
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/alashkon/?igsh=aXFzbDVvcW0zeTFm"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-teal-600 hover:text-teal-700 transition font-semibold hover:underline"
               aria-label="Instagram"
             >
@@ -162,7 +166,14 @@ const Footer = () => {
       <div className="bg-emerald-950 py-3 mt-6 text-center">
         <p className="text-gray-200 text-sm">
           Developed By -{" "}
-          <span className="font-bold text-teal-100">Suraj Kr. Saw</span>
+          <a
+            href="https://wa.me/917808340140"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-teal-100 hover:underline hover:text-teal-300 transition"
+          >
+            Suraj Kr. Saw
+          </a>
         </p>
       </div>
     </footer>

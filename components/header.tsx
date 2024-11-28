@@ -50,14 +50,19 @@ const Header = () => {
                 { name: "Home", link: "/" },
                 { name: "About Us", link: "/about" },
                 { name: "Catalogues", link: "/catalogues" },
-                { name: "Say Hii!", link: "/say-hi" },
+                {
+                  name: "Say Hii!",
+                  link: "https://wa.me/919905061103",
+                  target: "_blank",
+                },
                 { name: "Contact Us", link: "/contact" },
-                { name: "Locate Us", link: "/locate" },
+                // { name: "Locate Us", link: "/locate" },
                 { name: "Support", link: "/support" },
               ].map((item) => (
                 <Link
                   key={item.name}
                   href={item.link}
+                  target={item.target || "_self"}
                   className="text-lg font-medium text-gray-700 hover:text-teal-600 hover:underline hover:decoration-double transition"
                   onClick={handleCloseSheet}
                 >
@@ -95,14 +100,19 @@ const Header = () => {
           { name: "Home", link: "/" },
           { name: "About Us", link: "/about" },
           { name: "Catalogues", link: "/catalogues" },
-          { name: "Say Hii!", link: "/say-hi" },
+          {
+            name: "Say Hii!",
+            link: "https://wa.me/919905061103",
+            target: "_blank",
+          },
           { name: "Contact Us", link: "/contact" },
-          { name: "Locate Us", link: "/locate" },
+          // { name: "Locate Us", link: "/locate" },
           { name: "Support", link: "/support" },
         ].map((item) => (
           <Link
             key={item.name}
             href={item.link}
+            target={item.target || "_self"}
             className="relative group text-sm font-medium text-white hover:text-gray-200 transition"
           >
             {item.name}
