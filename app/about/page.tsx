@@ -14,10 +14,10 @@ const About = () => {
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mt-4">
           Over time, the business was carried forward by the next generation,
-          Mr. Sujal Kumar Chourasia (son of Lt. Sanjay Kumar Chourasia) and Mr.
-          Ajay Kumar Chourasia. After two decades, another branch was
-          established: <strong>Sangam Trader</strong>, led by Proprietor Mr.
-          Kumar Hritik Roshan and managed by Mr. Naresh Prasad Chourasia.
+          Mr. Sujal Kumar Chourasia (son of Lt. Sanjay Kumar Chourasia). After
+          two decades, another branch was established:{" "}
+          <strong>Sangam Trader</strong>, led by Proprietor Mr. Kumar Hritik
+          Roshan and managed by Mr. Naresh Prasad Chourasia.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mt-4">
           With a vision for further expansion,{" "}
