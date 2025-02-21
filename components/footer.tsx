@@ -3,11 +3,11 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-emerald-200 text-gray-700 pt-8">
-      <div className="container mx-auto px-4 sm:px-8">
+      <div className="container flex flex-col mx-auto px-4">
         {/* Top Section */}
-        <div className="flex flex-wrap justify-between items-start mb-6">
+        <div className="flex flex-col md:flex-row justify-between gap-y-6 mb-6">
           {/* Logo and Company Name */}
-          <div className="w-full sm:w-1/3 mb-6 sm:mb-0 text-center sm:text-left">
+          <div className="flex flex-col items-center sm:items-start sm:w-1/3 mx-4 bg-red-200">
             <Link href="/" className="flex items-center space-x-3">
               <Image
                 src="/alashkonLogo.png"
@@ -21,100 +21,48 @@ const Footer = () => {
                 alt="Alashkon Title"
                 height={60}
                 width={180}
-                className="md:!h-[60px] md:!w-[180px] h-[50px] w-[160px]"
+                className="sm:!h-[60px] sm:!w-[180px] h-[50px] w-[160px]"
               />
             </Link>
           </div>
 
-          {/* Categories (Catalogues) */}
-          <div className="w-full sm:w-1/3 mb-6 sm:mb-0 text-center sm:text-left">
+          {/* Categories */}
+          <div className="sm:w-1/3 text-center md:text-left">
             <h3 className="text-lg font-semibold text-teal-600 mb-2">
               CATEGORIES
             </h3>
-            <ul className="space-x-2 inline-flex flex-wrap">
-              <li>
-                <Link
-                  href="/one piece"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  One Piece,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/half pedestal basin"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Half Pedestal Basin,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/wall hung"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Wall Hung,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/orissa pan urinal"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Orissa Pan & Urinal,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/table top"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Table Top,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/wall hung basin"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Wall Hung Basin,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/water closet"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Water Closet,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/one piece basin"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  One Piece Basin,
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/basin with pedestal"
-                  className="text-gray-600 hover:text-teal-500 transition"
-                >
-                  Basin with Pedestal
-                </Link>
-              </li>
+            <ul className="flex flex-wrap justify-center md:justify-start gap-x-2 gap-y-1">
+              {[
+                { name: "One Piece", link: "/one piece" },
+                { name: "Half Pedestal Basin", link: "/half pedestal basin" },
+                { name: "Wall Hung", link: "/wall hung" },
+                { name: "Orissa Pan & Urinal", link: "/orissa pan urinal" },
+                { name: "Table Top", link: "/table top" },
+                { name: "Wall Hung Basin", link: "/wall hung basin" },
+                { name: "Water Closet", link: "/water closet" },
+                { name: "One Piece Basin", link: "/one piece basin" },
+                { name: "Basin with Pedestal", link: "/basin with pedestal" },
+              ].map((category) => (
+                <li key={category.name}>
+                  <Link
+                    href={category.link}
+                    className="text-gray-600 hover:text-teal-500 transition"
+                  >
+                    {category.name},
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* Contact Details */}
-          <div className="w-full sm:w-1/3 text-center sm:text-left">
+          <div className="sm:w-1/3 text-center md:text-left">
             <h3 className="text-lg font-semibold text-teal-600 mb-2">
               CONTACT
             </h3>
             <p className="text-gray-600">
               <a
-                href="mailto:contact@alashkon.com"
+                href="mailto:alashkoninfras@gmail.com"
                 className="text-teal-600 hover:text-teal-500 transition"
               >
                 alashkoninfras@gmail.com
@@ -122,21 +70,23 @@ const Footer = () => {
             </p>
             <p className="text-gray-600">
               <a
-                href="https://maps.google.com/?q=1234,+Dummy+Street,+Some+City"
+                href="https://maps.google.com/?q=AT.+P.O.+Pochari,+Dhanbad,+Pin+828306,+India"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-teal-600 hover:text-teal-500 transition"
               >
-                AT. P.O. Pochari, Dhanbad, Pin Code: 828306, India
+                AT. P.O. Pochari, Dhanbad, Pin: 828306, India
               </a>
             </p>
           </div>
         </div>
 
         {/* Social Links and Copyright */}
-        <div className="flex flex-col sm:flex-row justify-between items-center border-t border-gray-400 pt-6">
-          {/* Social Icons (Left of Copyright) */}
-          <div className="flex space-x-4 mb-4 sm:mb-0">
+        <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-400 pt-6">
+          {/* Social Links */}
+          <div className="flex space-x-4 mb-4 md:mb-0">
             <Link
-              href="https://www.facebook.com/profile.php?id=61569552780450&mibextid=qi2Omg&rdid=I6PFl8T5T0pSPHVF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19oW2ogEaP%2F%3Fmibextid%3Dqi2Omg"
+              href="https://www.facebook.com/profile.php?id=61569552780450&mibextid=qi2Omg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-600 hover:text-teal-700 transition font-semibold hover:underline"
@@ -156,23 +106,23 @@ const Footer = () => {
           </div>
 
           {/* Copyright Text */}
-          <p className="text-gray-600 text-sm text-center font-semibold text-sm">
+          <p className="text-gray-600 text-sm font-semibold text-center">
             © 2024 ALL RIGHTS RESERVED BY ALASHKON
           </p>
         </div>
       </div>
 
       {/* Developer Section */}
-      <div className="bg-emerald-950 py-3 mt-6 text-center">
-        <p className="text-gray-200 text-sm">
+      <div className="bg-emerald-950 py-3 mt-6 text-center rounded-t-3xl">
+        <p className="text-teal-100 text-sm">
           Developed By -{" "}
           <a
             href="https://wa.me/917808340140"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-teal-100 hover:underline hover:text-teal-300 transition"
+            className="font-bold text-gray-200 hover:underline hover:text-teal-300 transition"
           >
-            Suraj Kr. Saw
+            SURAJ KUMAR SAW
           </a>
         </p>
       </div>
