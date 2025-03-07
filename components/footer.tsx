@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between gap-y-6 mb-6">
           {/* Logo and Company Name */}
-          <div className="flex flex-col items-center sm:items-start sm:w-1/3 mx-4 bg-red-200">
+          <div className="flex flex-col items-center sm:items-start sm:w-1/3 mx-4">
             <Link href="/" className="flex items-center space-x-3">
               <Image
                 src="/alashkonLogo.png"

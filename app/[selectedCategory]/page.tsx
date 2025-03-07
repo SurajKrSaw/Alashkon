@@ -3,19 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import products from "../../data/products.json";
 
-const Products = ({ params }: { params: { products: string } }) => {
-  console.log(params.products);
+const Products = ({ params }: { params: { selectedCategory: string } }) => {
+  console.log("Selected Category - ", params.selectedCategory);
   return (
     <div className="flex flex-col min-h-screen text-gray-600 bg-gray-100 body-font">
       <h1 className="text-3xl sm:text-4xl font-bold text-center tracking-wide py-7 text-teal-600 decoration-teal-400">
-        {decodeURIComponent(params.products).toUpperCase()}
+        {decodeURIComponent(params.selectedCategory).toUpperCase()}
       </h1>
       <div className="container py-8 px-12 mx-auto">
         <div className="flex flex-wrap -m-4">
           {products
             .filter(
               (product) =>
-                product.category === decodeURIComponent(params.products)
+                product.category === decodeURIComponent(params.selectedCategory)
             )
             .map((product) => (
               <div key={product.id} className="lg:w-1/3 md:w-1/2 p-5">
@@ -32,7 +32,9 @@ const Products = ({ params }: { params: { products: string } }) => {
                     </div>
                     <div className="mt-4">
                       <h3 className="text-xs font-semibold tracking-widest text-teal-600">
-                        {decodeURIComponent(params.products).toUpperCase()}
+                        {decodeURIComponent(
+                          params.selectedCategory
+                        ).toUpperCase()}
                       </h3>
                       <h2 className="text-xl font-bold text-blue-900 tracking-wide text-right">
                         {product.name}
