@@ -117,7 +117,7 @@ const Footer = () => {
         <p className="text-teal-100 text-sm">
           Developed By -{" "}
           <a
-            href="https://wa.me/917808340140"
+            href="https://wa.me/918340451897"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-gray-200 hover:underline hover:text-teal-300 transition"
