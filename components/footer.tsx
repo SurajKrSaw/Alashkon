@@ -33,15 +33,19 @@ const Footer = () => {
             </h3>
             <ul className="flex flex-wrap justify-center md:justify-start gap-x-2 gap-y-1">
               {[
-                { name: "One Piece", link: "/one piece" },
-                { name: "Half Pedestal Basin", link: "/half pedestal basin" },
-                { name: "Wall Hung", link: "/wall hung" },
-                { name: "Orissa Pan & Urinal", link: "/orissa pan urinal" },
-                { name: "Table Top", link: "/table top" },
-                { name: "Wall Hung Basin", link: "/wall hung basin" },
                 { name: "Water Closet", link: "/water closet" },
+                { name: "One Piece Closet", link: "/one piece closet" },
                 { name: "One Piece Basin", link: "/one piece basin" },
-                { name: "Basin with Pedestal", link: "/basin with pedestal" },
+                {
+                  name: "One Piece Wall Hung Basin",
+                  link: "/one piece wall hung basin",
+                },
+                { name: "Half Padestal Basin", link: "/table top" },
+                { name: "Wall Hung Closet", link: "./wall hung closet" },
+                { name: "Wall Hung Basin", link: "/wall hung basin" },
+                { name: "PAN & URINAL", link: "/pan & urinal" },
+                { name: "Table Top Basin", link: "/table top basin" },
+                { name: "Basin With Padestal", link: "/basin with padestal" },
               ].map((category) => (
                 <li key={category.name}>
                   <Link

@@ -1,238 +1,760 @@
+
 [
-  {
-    "id": 1,
-    "name": "ULTRA",
-    "code": "####",
-    "size": "665x350x750",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1111%20ULTRA.jpg"
-  },
-  {
-    "id": 2,
-    "name": "EGRET",
-    "code": "####",
-    "size": "665x360x730",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1112%20EGRET.jpg"
-  },
-  {
-    "id": 3,
-    "name": "VOLVO",
-    "code": "####",
-    "size": "xx",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1113%20VOLVO.jpg"
-  },{
-    "id": 4,
-    "name": "COLONA",
-    "code": "####",
-    "size": "665x365x725",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1114%20COLONA.jpg"
-  },{
-    "id": 5,
-    "name": "VICTORIA",
-    "code": "####",
-    "size": "725x390x770",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1115%20VICTORIA.jpg"
-  },{
-    "id": 6,
-    "name": "CRYSTAL",
-    "code": "####",
-    "size": "650x355x690",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1116%20CRYSTAL.jpg"
-  },{
-    "id": 7,
-    "name": "SWIZ",
-    "code": "####",
-    "size": "655x360x735",
-    "price": "XX.XX",
-    "category": "one piece",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1117%20SWIZ.jpg"
-  },{
-    "id": 8,
-    "name": "NURA HALF SET",
-    "code": "####",
-    "size": "xx",
-    "price": "XX.XX",
-    "category": "half pedestal basin",
-    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-161%20NURA%20HALF%20SET.jpg"
-  },{
-    "id": 9,
-    "name": "ASTIS HALF SET",
-    "code": "####",
-    "price": "XX.XX",
-    "size": "665x350x750",
-    "category": "half pedestal basin",
-    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-162%20ASTIS%20HALF%20SET.jpg"
-  },{
-    "id": 10,
-    "name": "SPACY",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "half pedestal basin",
-    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-170%20SPACY.jpg"
-  },{
-    "id": 11,
-    "name": "LAKME HALF SET",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "half pedestal basin",
-    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-163%20LAKME%20HALF%20SET.jpg"
-  },{
-    "id": 12,
-    "name": "SALVO",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "half pedestal basin",
-    "image": "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-171%20SALVO.jpg"
-  },{
-    "id": 13,
-    "name": "MILANO",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "wall hung",
-    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-507%20MILANO.jpg"
-  },{
-    "id": 14,
-    "name": "SOLID",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "wall hung",
-    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-510%20SOLID.jpg"
-  },{
-    "id": 15,
-    "name": "MAST",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "wall hung",
-    "image": ""
-  },{
-    "id": 16,
-    "name": "SANKU",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "wall hung",
-    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-512%20SANKU.jpg"
-  },{
-    "id": 17,
-    "name": "ZORA",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "wall hung",
-    "image": "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-513%20ZORA.jpg"
-  },{
-    "id": 18,
-    "name": "ORISSA 20\"",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-01.jpg"
-  },{
-    "id": 19,
-    "name": "ORISSA 23\"",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-02.jpg"
-  },{
-    "id": 20,
-    "name": "CITY PAN 20\"",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-03.jpg"
-  },{
-    "id": 21,
-    "name": "TOVA",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-151.jpg"
-  },{
-    "id": 22,
-    "name": "HALF STALL",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-154.jpg"
-  },{
-    "id": 23,
-    "name": "NANO",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "orissa pan & urinal",
-    "image": "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-155.jpg"
-  },{
-    "id": 24,
-    "name": "CRENZA",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-92.jpg"
-  },{
-    "id": 25,
-    "name": "AQUA",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-95.jpg"
-  },{
-    "id": 26,
-    "name": "CAPSUL",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-102.jpg"
-  },{
-    "id": 27,
-    "name": "CODE-104",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": ""
-  },{
-    "id": 28,
-    "name": "SPARKLE",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-105.jpg"
-  },{
-    "id": 29,
-    "name": "SALVIA",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-106.jpg"
-  },{
-    "id": 30,
-    "name": "VENTO",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-161.jpg"
-  },{
-    "id": 31,
-    "name": "INOX",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-167.jpg"
-  },{
-    "id": 32,
-    "name": "LUDO",
-    "code": "####",
-    "price": "XX.XX",
-    "category": "table top",
-    "image": "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-170.jpg"
-  }
+{
+"id": 1,
+"name": "TORAH EWC",
+"code": "208",
+"size": "550x355x410",
+"price": "9870",
+"category": "water closet",
+"image": "/productImgs/wc208TorahEwc.jpg"
+},
+{
+"id": 2,
+"name": "STAR EWC",
+"code": "207",
+"size": "510x345x390",
+"price": "9870",
+"category": "water closet",
+"image": "/productImgs/wc207StarEwc.jpg"
+},
+{
+"id": 3,
+"name": "RAMOS",
+"code": "206",
+"size": "500x350x400",
+"price": "9725",
+"category": "water closet",
+"image": "/productImgs/wc206Ramos.jpg"
+},
+{
+"id": 4,
+"name": "SELVO CONCEALED EWS 'S'",
+"code": "205",
+"size": "480x370x420",
+"price": "5750",
+"category": "water closet",
+"image": "/productImgs/wc205SelvoConcealedEwcS.jpg"
+},
+{
+"id": 5,
+"name": "ANGLO INDIANS 'S'",
+"code": "203",
+"size": "570x455x395",
+"price": "7250",
+"category": "water closet",
+"image": "/productImgs/wc203AngloIndianS.jpg"
+},
+{
+"id": 6,
+"name": "STEPHY EWS 'S'",
+"code": "201",
+"size": "540x360x400",
+"price": "4325",
+"category": "water closet",
+"image": "/productImgs/wc201StephyEwcS.jpg"
+},
+{
+"id": 7,
+"name": "MILANO",
+"code": "507",
+"size": "536x335x355",
+"price": "13350",
+"category": "wall hung closet",
+"image": "/productImgs/whc507Milano.jpg"
+},
+{
+"id": 8,
+"name": "SEKMI",
+"code": "508",
+"size": "490x350x320",
+"price": "11400",
+"category": "wall hung closet",
+"image": "/productImgs/whc508Sekmi.jpg"
+},
+{
+"id": 9,
+"name": "SANDY",
+"code": "510",
+"size": "525x360x360",
+"price": "11900",
+"category": "wall hung closet",
+"image": "/productImgs/whc510Sandy.jpg"
+},
+{
+"id": 10,
+"name": "CAPTAIN",
+"code": "511",
+"size": "510x355x355",
+"price": "11900",
+"category": "wall hung closet",
+"image": "/productImgs/whc511Captain.jpg"
+},
+{
+"id": 11,
+"name": "SANKU",
+"code": "512",
+"size": "510x365x365",
+"price": "11400",
+"category": "wall hung closet",
+"image": "/productImgs/whc512Sanku.jpg"
+},
+{
+"id": 12,
+"name": "ZORA",
+"code": "513",
+"size": "505x365x330",
+"price": "12200",
+"category": "wall hung closet",
+"image": "/productImgs/whc513Zora.jpg"
+},
+{
+"id": 13,
+"name": "RAUTELA",
+"code": "514",
+"size": "535x340x355",
+"price": "11400",
+"category": "wall hung closet",
+"image": "/productImgs/whc514Rautela.jpg"
+},
+{
+"id": 14,
+"name": "ZARA",
+"code": "515",
+"size": "500x350x365",
+"price": "11300",
+"category": "wall hung closet",
+"image": "/productImgs/whcZara.jpg"
+},
+{
+"id": 15,
+"name": "SEGAM",
+"code": "516",
+"size": "490x350x340",
+"price": "16000",
+"category": "wall hung closet",
+"image": "/productImgs/whc516Segam.jpg"
+},
+{
+"id": 16,
+"name": "TONI",
+"code": "517",
+"size": "510x365x350",
+"price": "12100",
+"category": "wall hung closet",
+"image": "/productImgs/whc517Toni.jpg"
+},
+{
+"id": 17,
+"name": "ROYAL",
+"code": "5005",
+"size": "460x310x200",
+"price": "1800",
+"category": "wall hung basin",
+"image": "/productImgs/whb5005Royal.jpg"
+},
+{
+"id": 18,
+"name": "IRIS",
+"code": "5006",
+"size": "330x240x155",
+"price": "2020",
+"category": "wall hung basin",
+"image": "/productImgs/whb5006Iris.jpg"
+},
+{
+"id": 19,
+"name": "ZITA",
+"code": "5007",
+"size": "655x350x715",
+"price": "2510",
+"category": "wall hung basin",
+"image": "/productImgs/whb5007Zita.jpg"
+},
+{
+"id": 20,
+"name": "REAL",
+"code": "5008",
+"size": "400x315x135",
+"price": "2020",
+"category": "wall hung basin",
+"image": "/productImgs/whb5008Real.jpg"
+},
+{
+"id": 21,
+"name": "SEEN",
+"code": "5009",
+"size": "410x250x125",
+"price": "2020",
+"category": "wall hung basin",
+"image": "/productImgs/whb5009Seen.jpg"
+},
+{
+"id": 22,
+"name": "EBONY",
+"code": "5010",
+"size": "345x375x130",
+"price": "1850",
+"category": "wall hung basin",
+"image": "/productImgs/whb5010Ebony.jpg"
+},
+{
+"id": 23,
+"name": "SWAN CORNER",
+"code": "5011",
+"size": "560x480x180",
+"price": "2750",
+"category": "wall hung basin",
+"image": "/productImgs/whb5011SwanCorner.jpg"
+},
+{
+"id": 24,
+"name": "CHERRY CORNER",
+"code": "5012",
+"size": "405x405x193",
+"price": "2390",
+"category": "wall hung basin",
+"image": "/productImgs/whb5012CherryCorner.jpg"
+},
+{
+"id": 25,
+"name": "CRENZA",
+"code": "092",
+"size": "450x450x125",
+"price": "4990",
+"category": "table top basin",
+"image": "/productImgs/ttb092Crenza.jpg"
+},
+{
+"id": 26,
+"name": "AQUA",
+"code": "095",
+"size": "410x410x125",
+"price": "4720",
+"category": "table top basin",
+"image": "/productImgs/ttb095Aqua.jpg"
+},
+{
+"id": 27,
+"name": "CAPSUL",
+"code": "102",
+"size": "515x310x125",
+"price": "4720",
+"category": "table top basin",
+"image": "/productImgs/ttb102Capsul.jpg"
+},
+{
+"id": 28,
+"name": "SCOUT",
+"code": "103",
+"size": "375x480x130",
+"price": "4720",
+"category": "table top basin",
+"image": "/productImgs/ttb103Scout.jpg"
+},
+{
+"id": 29,
+"name": "RUBY",
+"code": "104",
+"size": "410x410x110",
+"price": "5700",
+"category": "table top basin",
+"image": "/productImgs/ttb104Ruby.jpg"
+},
+{
+"id": 30,
+"name": "SPARKLE",
+"code": "105",
+"size": "505x400x130",
+"price": "6050",
+"category": "table top basin",
+"image": "/productImgs/ttb105Sparkle.jpg"
+},
+{
+"id": 31,
+"name": "SALVIA",
+"code": "106",
+"size": "595x320x130",
+"price": "8900",
+"category": "table top basin",
+"image": "/productImgs/ttb106Salvia.jpg"
+},
+{
+"id": 32,
+"name": "VENTO",
+"code": "107",
+"size": "375x460x125",
+"price": "5070",
+"category": "table top basin",
+"image": "/productImgs/ttb107Vento.jpg"
+},
+{
+"id": 33,
+"name": "INOX",
+"code": "108",
+"size": "340x463x110",
+"price": "4895",
+"category": "table top basin",
+"image": "/productImgs/ttb108Inox.jpg"
+},
+{
+"id": 34,
+"name": "LUDO",
+"code": "109",
+"size": "385x450x135",
+"price": "4895",
+"category": "table top basin",
+"image": "/productImgs/ttb109Ludo.jpg"
+},
+{
+"id": 35,
+"name": "ORIENT",
+"code": "111",
+"size": "555x380x115",
+"price": "8190",
+"category": "table top basin",
+"image": "/productImgs/ttb111Orient.jpg"
+},
+{
+"id": 36,
+"name": "ORISSA 20'",
+"code": "001",
+"size": "510x410x285",
+"price": "2225",
+"category": "pan & urinal",
+"image": "/productImgs/pu001Orissa20.jpg"
+},
+{
+"id": 37,
+"name": "ORISSA 23'",
+"code": "002",
+"size": "600x445x265",
+"price": "2800",
+"category": "pan & urinal",
+"image": "/productImgs/pu002Orissa23.jpg"
+},
+{
+"id": 38,
+"name": "CITY PAN 20'",
+"code": "003",
+"size": "520x420x160",
+"price": "2225",
+"category": "pan & urinal",
+"image": "/productImgs/pu003CityPan20.jpg"
+},
+{
+"id": 39,
+"name": "TOVA",
+"code": "151",
+"size": "285x285x370",
+"price": "4290",
+"category": "pan & urinal",
+"image": "/productImgs/pu151Tova.jpg"
+},
+{
+"id": 40,
+"name": "HALF STALL",
+"code": "154",
+"size": "380x350x615",
+"price": "5325",
+"category": "pan & urinal",
+"image": "/productImgs/pu154HalfStall.jpg"
+},
+{
+"id": 41,
+"name": "NANO",
+"code": "155",
+"size": "445x360x100",
+"price": "3490",
+"category": "pan & urinal",
+"image": "/productImgs/pu155Nano.jpg"
+},
+{
+"id": 42,
+"name": "ELISE",
+"code": "156",
+"size": "570x290x190",
+"price": "7760",
+"category": "pan & urinal",
+"image": "/productImgs/pu156Elise.jpg"
+},
+{
+"id": 43,
+"name": "SPACY",
+"code": "170",
+"size": "445x495x390",
+"price": "10950",
+"category": "one piece wall hung basin",
+"image": "/productImgs/opwhb170Spacy.jpg"
+},
+{
+"id": 44,
+"name": "SALVO",
+"code": "171",
+"size": "440x470x305",
+"price": "10000",
+"category": "one piece wall hung basin",
+"image": "/productImgs/opwhb171Salvo.jpg"
+},
+{
+"id": 45,
+"name": "SOLO",
+"code": "172",
+"size": "570x495x370",
+"price": "11200",
+"category": "one piece wall hung basin",
+"image": "/productImgs/opwhb172Solo.jpg"
+},
+{
+"id": 46,
+"name": "TORA",
+"code": "173",
+"size": "550x450x370",
+"price": "11200",
+"category": "one piece wall hung basin",
+"image": "/productImgs/opwhb173Tora.jpg"
+},
+{
+"id": 47,
+"name": "ULTRA",
+"code": "1111",
+"size": "665x350x750",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1111Ultra.jpg"
+},
+{
+"id": 48,
+"name": "EGRET",
+"code": "1112",
+"size": "665x360x730",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1112Egret.jpg"
+},
+{
+"id": 49,
+"name": "SENTA",
+"code": "1113",
+"size": "660x348x748",
+"price": "17210",
+"category": "one piece closet",
+"image": "/productImgs/opc1113Senta.jpg"
+},
+{
+"id": 50,
+"name": "COLONA",
+"code": "1114",
+"size": "665x365x725",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1114Colona.jpg"
+},
+{
+"id": 51,
+"name": "VICTORIA",
+"code": "1115",
+"size": "725x390x770",
+"price": "19940",
+"category": "one piece closet",
+"image": "/productImgs/opc1115Victoria.jpg"
+},
+{
+"id": 52,
+"name": "CALVIN",
+"code": "1116",
+"size": "680x360x730",
+"price": "17600",
+"category": "one piece closet",
+"image": "/productImgs/opc1116Calvin.jpg"
+},
+{
+"id": 53,
+"name": "SWIZ",
+"code": "1117",
+"size": "655x360x735",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1117Swiz.jpg"
+},
+{
+"id": 54,
+"name": "DIAMOND",
+"code": "1119",
+"size": "675x370x760",
+"price": "19700",
+"category": "one piece closet",
+"image": "/productImgs/opc1119Diamond.jpg"
+},
+{
+"id": 55,
+"name": "LIZAR",
+"code": "1118",
+"size": "645x350x810",
+"price": "17500",
+"category": "one piece closet",
+"image": "/productImgs/opc1118Lizar.jpg"
+},
+{
+"id": 56,
+"name": "TESLA",
+"code": "1120",
+"size": "675x360x725",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1120Tesla.jpg"
+},
+{
+"id": 57,
+"name": "QUBA",
+"code": "1121",
+"size": "690x370x740",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1121Quba.jpg"
+},
+{
+"id": 58,
+"name": "TOKO",
+"code": "1122",
+"size": "715x375x810",
+"price": "17200",
+"category": "one piece closet",
+"image": "/productImgs/opc1122Toko.jpg"
+},
+{
+"id": 59,
+"name": "ORBIT",
+"code": "1124",
+"size": "690x350x750",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1124Orbit.jpg"
+},
+{
+"id": 60,
+"name": "TEXA",
+"code": "1127",
+"size": "680x385x775",
+"price": "18330",
+"category": "one piece closet",
+"image": "/productImgs/opc1127Texa.jpg"
+},
+{
+"id": 61,
+"name": "DENIM",
+"code": "1128",
+"size": "650x360x760",
+"price": "18700",
+"category": "one piece closet",
+"image": "/productImgs/opc1128Denim.jpg"
+},
+{
+"id": 62,
+"name": "RONI",
+"code": "1129",
+"size": "660x355x780",
+"price": "17200",
+"category": "one piece closet",
+"image": "/productImgs/opc1129Roni.jpg"
+},
+{
+"id": 63,
+"name": "SPORTY",
+"code": "1130",
+"size": "645x360x750",
+"price": "18500",
+"category": "one piece closet",
+"image": "/productImgs/opc1130Sporty.jpg"
+},
+{
+"id": 64,
+"name": "RAJA",
+"code": "1131",
+"size": "665x350x735",
+"price": "18500",
+"category": "one piece closet",
+"image": "/productImgs/opc1131Raja.jpg"
+},
+{
+"id": 65,
+"name": "LUMIA",
+"code": "1132",
+"size": "650x350x770",
+"price": "19200",
+"category": "one piece closet",
+"image": "/productImgs/opc1132Lumia.jpg"
+},
+{
+"id": 66,
+"name": "ARIX",
+"code": "1126",
+"size": "670x340x810",
+"price": "16010",
+"category": "one piece closet",
+"image": "/productImgs/opc1126Arix.jpg"
+},
+{
+"id": 67,
+"name": "RETRO",
+"code": "1133",
+"size": "660x365x750",
+"price": "20060",
+"category": "one piece closet",
+"image": "/productImgs/opc1133Retro.jpg"
+},
+{
+"id": 68,
+"name": "UKRAINE",
+"code": "1134",
+"size": "665x360x730",
+"price": "18000",
+"category": "one piece closet",
+"image": "/productImgs/opc1134Ukraine.jpg"
+},
+{
+"id": 69,
+"name": "SPINZ",
+"code": "1135",
+"size": "700x380x655",
+"price": "15100",
+"category": "one piece closet",
+"image": "/productImgs/opc1135Spinz.jpg"
+},
+{
+"id": 70,
+"name": "DESERT",
+"code": "1136",
+"size": "720x380x670",
+"price": "15100",
+"category": "one piece closet",
+"image": "/productImgs/opc1136Desert.jpg"
+},
+{
+"id": 71,
+"name": "VENTUS",
+"code": "1137",
+"size": "695x355x685",
+"price": "15100",
+"category": "one piece closet",
+"image": "/productImgs/opc1137Ventus.jpg"
+},
+{
+"id": 72,
+"name": "CRYSTAL",
+"code": "1138",
+"size": "650x355x690",
+"price": "15900",
+"category": "one piece closet",
+"image": "/productImgs/opc1138Crystal.jpg"
+},
+{
+"id": 73,
+"name": "CROWNY",
+"code": "3001",
+"size": "450x370x805",
+"price": "13000",
+"category": "one piece basin",
+"image": "/productImgs/opb3001Crowny.jpg"
+},
+{
+"id": 74,
+"name": "ROUND",
+"code": "3002",
+"size": "410x410x795",
+"price": "10800",
+"category": "one piece basin",
+"image": "/productImgs/opc3002Round.jpg"
+},
+{
+"id": 75,
+"name": "ALTIS HALF SET",
+"code": "162",
+"size": "425x570x575",
+"price": "5700",
+"category": "half padestal basin",
+"image": "/productImgs/hpb162AltisHalfSet.jpg"
+},
+{
+"id": 76,
+"name": "BONITA HALF SET",
+"code": "161",
+"size": "560x410x320",
+"price": "5700",
+"category": "half padestal basin",
+"image": "/productImgs/hpb161BonitaHalfSet.jpg"
+},
+{
+"id": 77,
+"name": "VEGA HALF SET",
+"code": "163",
+"size": "410x590x530",
+"price": "5880",
+"category": "half padestal basin",
+"image": "/productImgs/hpb163VegaHalfSet.jpg"
+},
+{
+"id": 78,
+"name": "DIAMOND HALF SET",
+"code": "164",
+"size": "530x590x570",
+"price": "5880",
+"category": "half padestal basin",
+"image": "/productImgs/hpb164DiamondHalfSet.jpg"
+},
+{
+"id": 79,
+"name": "BONITA",
+"code": "WB 128",
+"size": "560x410x700",
+"price": "6230",
+"category": "basin with padestal",
+"image": "/productImgs/bwpWB128onita.jpg"
+},
+{
+"id": 80,
+"name": "ALTIS",
+"code": "WB 129",
+"size": "455x370x700",
+"price": "6050",
+"category": "basin with padestal",
+"image": "/productImgs/bwpWB129Altis.jpg"
+},
+{
+"id": 81,
+"name": "VEGA",
+"code": "WB 131",
+"size": "435x562x880",
+"price": "6230",
+"category": "basin with padestal",
+"image": "/productImgs/bwpWB131Vega.jpg"
+},
+{
+"id": 82,
+"name": "SOPHIYA",
+"code": "WB 138",
+"size": "540x435x700",
+"price": "6300",
+"category": "basin with padestal",
+"image": "/productImgs/bwpWB138Sophiya.jpg"
+},
+{
+"id": 83,
+"name": "LORENTA",
+"code": "WB 140",
+"size": "620x440x700",
+"price": "6500",
+"category": "basin with padestal",
+"image": "/productImgs/bwpWB140Lorenta.jpg"
+},
+{
+"id": 84,
+"name": "DIAMOND",
+"code": "WB 145",
+"size": "490x595x885",
+"price": "6350",
+"category": "basin with padetal",
+"image": "/productImgs/bwpWB145Diamond.jpg"
+}
 ]
+

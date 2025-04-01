@@ -44,7 +44,7 @@ const Products = ({ params }: { params: { selectedCategory: string } }) => {
                           <p className="text-sm">Code: {product.code}</p>
                           {/* Size below Code */}
                           <p className="text-sm text-gray-600">
-                            Size: {product.size || "N/A"}
+                            Size: {product.size || "N/A"} mm
                           </p>
                         </div>
                         <p className="text-lg font-semibold text-teal-600">

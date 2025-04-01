@@ -1,49 +1,55 @@
 const Catalogues = () => {
   const categories = [
     {
-      name: "ONE PIECE",
-      link: "./one piece",
-      img: "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE/CODE-1111%20ULTRA.jpg",
-    },
-    {
-      name: "HALF PEDESTAL BASIN",
-      link: "./half pedestal basin",
-      img: "https://senticabathware.com/includes/assets/images/collection/HALF%20PADESTAL%20BASIN/CODE-171%20SALVO.jpg",
-    },
-    {
-      name: "WALL HUNG",
-      link: "./wall hung",
-      img: "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG/CODE-513%20ZORA.jpg",
-    },
-    {
-      name: "ORISSA PAN & URINAL",
-      link: "./orissa pan & urinal",
-      img: "https://senticabathware.com/includes/assets/images/collection/ORISSA%20PAN%20&%20URINAL/CODE-154.jpg",
-    },
-    {
-      name: "TABLE TOP",
-      link: "./table top",
-      img: "https://senticabathware.com/includes/assets/images/collection/TABLE%20TOP/CODE-102.jpg",
-    },
-    {
-      name: "WALL HUNG BASIN",
-      link: "./wall hung basin",
-      img: "https://senticabathware.com/includes/assets/images/collection/WALL%20HUNG%20BASIN/CODE-5005.jpg",
-    },
-    {
       name: "WATER CLOSET",
       link: "./water closet",
-      img: "https://senticabathware.com/includes/assets/images/collection/WATER%20CLOSET/CODE-201.jpg",
+      img: "../categoryImgs/watercloset.jpg",
+    },
+    {
+      name: "ONE PIECE CLOSET",
+      link: "./one piece closet",
+      img: "../categoryImgs/onepiececloset.jpg",
     },
     {
       name: "ONE PIECE BASIN",
       link: "./one piece basin",
-      img: "https://senticabathware.com/includes/assets/images/collection/ONE%20PIECE%20BASIN/CODE-3001%20NESA.jpg",
+      img: "../categoryImgs/onepiecebasin.jpg",
     },
     {
-      name: "BASIN WITH PADETAL",
-      link: "./basin with padetal",
-      img: "https://senticabathware.com/includes/assets/images/collection/BASIN%20WITH%20PADETAL/CODE-128%20LINIA.jpg",
+      name: "ONE PIECE WALL HUNG BASIN",
+      link: "./one piece wall hung basin",
+      img: "../categoryImgs/onepiecewallhungbasin.jpg",
+    },
+    {
+      name: "HALF PADESTAL BASIN",
+      link: "./half padestal basin",
+      img: "../categoryImgs/halfpadestalbasin.jpg",
+    },
+    {
+      name: "WALL HUNG CLOSET",
+      link: "./wall hung closet",
+      img: "../categoryImgs/wallhungcloset.jpg",
+    },
+    {
+      name: "WALL HUNG BASIN",
+      link: "./wall hung basin",
+      img: "../categoryImgs/wallhungbasin.jpg",
+    },
+    {
+      name: "PAN & URINAL",
+      link: "./pan & urinal",
+      img: "../categoryImgs/pan&urinal.jpg",
+    },
+    {
+      name: "TABLE TOP BASIN",
+      link: "./table top basin",
+      img: "../categoryImgs/tabletopbasin.jpg",
+    },
+
+    {
+      name: "BASIN WITH PADESTAL",
+      link: "./basin with padestal",
+      img: "../categoryImgs/basinwithpadestal.jpg",
     },
   ];
 
