@@ -10,7 +10,13 @@ const Contact = () => {
           {/* Email */}
           <div>
             <h2 className="text-lg font-semibold text-gray-700">Email</h2>
-            <p className="text-gray-600 mt-1">
+            <p className="flex flex-col text-gray-600 mt-1">
+              <a
+                href="mailto:support@alashkon.com"
+                className="text-teal-600 hover:underline"
+              >
+                support@alashkon.com
+              </a>
               <a
                 href="mailto:contact@alashkon.com"
                 className="text-teal-600 hover:underline"
@@ -25,16 +31,16 @@ const Contact = () => {
             <h2 className="text-lg font-semibold text-gray-700">Phone</h2>
 
             <Link
-              href="tel:+919905061103"
+              href="tel:18008910716"
               className="text-teal-600 hover:text-teal-700 text-teal-600 mt-1 transition hover:underline"
             >
-              +91-9905061103
+              1800-891-0716
             </Link>
             <Link
-              href="tel:+919905061103"
+              href="tel:+917856986837"
               className="text-teal-600 hover:text-teal-700 transition hover:underline"
             >
-              +91-9110982710
+              78569-86837
             </Link>
           </div>
 
@@ -43,7 +49,7 @@ const Contact = () => {
             <h2 className="text-lg font-semibold text-gray-700">WhatsApp</h2>
             <p className="text-gray-600 mt-1">
               <a
-                href="https://wa.me/919905061103"
+                href="https://wa.me/7856986837"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-600 hover:underline"

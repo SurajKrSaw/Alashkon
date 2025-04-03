@@ -64,7 +64,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-teal-600 mb-2">
               CONTACT
             </h3>
-            <p className="text-gray-600">
+            <p className="flex flex-col text-gray-600 mb-2">
+              <a
+                href="mailto:support@alashkon.com"
+                className="text-teal-600 hover:text-teal-500 transition"
+              >
+                support@alashkon.com
+              </a>
               <a
                 href="mailto:alashkoninfras@gmail.com"
                 className="text-teal-600 hover:text-teal-500 transition"

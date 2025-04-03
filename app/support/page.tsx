@@ -84,27 +84,27 @@ const Support = () => {
           <div className="flex flex-col p-4 bg-white shadow-md rounded-lg text-center">
             <p className="text-lg font-semibold text-gray-700">Call Us</p>
             <Link
-              href="tel:+919905061103"
+              href="tel:18008910716"
               className="text-teal-600 hover:text-teal-700 text-teal-600 mt-1 transition hover:underline"
             >
-              +91-9905061103
+              180-089-10716
             </Link>
             <Link
-              href="tel:+919905061103"
+              href="tel:+917856986837"
               className="text-teal-600 hover:text-teal-700 transition hover:underline"
             >
-              +91-9110982710
+              78569-86837
             </Link>
           </div>
           <div className="p-4 bg-white shadow-md rounded-lg text-center">
             <p className="text-lg font-semibold text-gray-700">WhatsApp</p>
             <Link
-              href="https://wa.me/919905061103"
+              href="https://wa.me/917856986837"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-600 hover:underline"
             >
-              +91 9905061103
+              78569-86837
             </Link>
           </div>
           <div className="p-4 bg-white shadow-md rounded-lg text-center">
